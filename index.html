@@ -1,75 +1,84 @@
 <!DOCTYPE html>
 <html>
-
+   
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
- 
-  <title>Eden Woldemariam </title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport"content="width=device-width">
+  <title>Edi's Website</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bricolage+Grotesque:opsz@10..48&family=Dancing+Script&family=Inter:wght@600&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
-
-  <style> 
-*{font-family: 'Playfair Display', serif;}
-
+  <style>
     body {
-    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
-      display: flex;
-      align-items: center;
-      justify-content:center;
-      min-height: 100vh;
+      background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 93%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     }
-  
-    #mainBox {
-      background-color:#C6DEFF;
-      text-align: center;
-      width: 90vw;
-      max-width: 400px;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    .main-box { 
+      background-color:  antiquewhite; text-align: center;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 0pX ;
       
     }
-    h1 {
-      font-size: 18px;}
-    h2 {
-      font-size: 12px:}
-    i{ color:rebeccapurple;}
-
-
-    #imageBox {
-      height: 200px;
-      background-image: url('https://images.unsplash.com/photo-1459478309853-2c33a60058e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+    .picture-box {
+      height: 300px;
+      background-image: url("https://plus.unsplash.com/premium_photo-1670055126633-f409ab387cb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80");
       background-size: cover;
       background-position: center;
+      border-radius: 8px 8px 0px 0px;
+      
     }
 
+    .info-box {
+      padding: 18px;
+      text-align: center;
+    }     
+    .name-text {font-size: 18pt;color:#8C001A}
+
+    .title-text { font-size: 16pt; color:#E42217}
+    .link {
+      font-size:30px;
+      color: blue; 
+    }
+    .link: hover{
+      opacity: 0.7;
+    }
     
+    i {
+      margin-bottom: 30px;
+      margin-left:10px; margin-right: 10px;
+      font-size: 40px !important;
+      color: darkgray !important;
+    }
   </style>
   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-</head>  
+</head>
 
 <body>
-  <div id="mainBox">
-    <div id="imageBox">
-  
-  </div>
-    <div id="textBox">
-  <h1>Eden Woldemariam</h1>
- 
-  <p>PharmD Candidate</p>
- 
-  <p><a href= "https://www.linkedin.com/in/eden-woldemariam-aa513816a/" target="_blank">
-<i class="fa fa-linkedin-square" style="font-size:60px"></i></a></p>
-  </div>
+  <div class="main-box">
+    <div class="picture-box"></div>
+    <div class="infobox"> 
+      <p class="name-text">Eden Woldemariam</p>
+      <P class="title-text">PharmD candidate</P>
+      <div class="icons-box">
+        
+      <a target="_blank" href=https://www.linkedin.com/feed/>  <i class="fa fa-linkedin-square"></i></a>
+
+    
+    <a target="_blank" href="https://innovative-buffer-e71.notion.site/ba1686ec0de04fc5b5067803cb929f41?v=1adf93d2eddb43f285876dfd9be54eb8">  <i class="fa fa-user-md"></i></a>
+      </div>
+      
+      
     </div>
-
+  </div>
+   
 </body>
-
-  
 
 </html>
